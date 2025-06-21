@@ -37,7 +37,8 @@ export function ChainDetails() {
       // Format network name based on network ID
       const networkId = data.default_node_info.network
       const isTestnet = networkId.includes('testnet') || networkId.includes('9000')
-      const networkName = isTestnet ? 'Orise Chain Testnet' : 'Orise Chain Mainnet'
+      const networkName = isTestnet ? 'Orise Chain Testnet' : 'Orise Chain Testnet'
+      // const networkName = isTestnet ? 'Orise Chain Testnet' : 'Orise Chain Mainnet'
       
       return {
         network: networkName,

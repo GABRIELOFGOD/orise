@@ -24,7 +24,7 @@ export function Footer() {
         {/* Main Footer Content */}
         <div className="flex w-full md:flex-row flex-col gap-6 mb-12">
           <div className="w-full md:w-[40%] ">
-            <h2 className="text-xl font-medium mb-2">Powered by Universe Chain</h2>
+            <h2 className="text-xl font-medium mb-2">Powered by Orise Chain</h2>
            
           </div>
           {/* Footer Links Grid */}
